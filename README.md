@@ -10,7 +10,7 @@
   - Des confettis animés pour une ambiance festive et joyeuse.
 
 ## **Déploiement**  
-Ce site est déployé sur GitHub Pages. Visitez le site ici : [Lien vers le site](https://votre-site.github.io/khalisecret/).
+Ce site est déployé sur GitHub Pages. Visitez le site ici : [Lien vers le site](https://khalil104.github.io/khalisecret/).
 
 ## **Technologies utilisées**  
 - **HTML5** et **CSS3** : Structure des pages et styles personnalisés.  
