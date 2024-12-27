@@ -1,0 +1,67 @@
+  * {
+    font-family: 'PT', sans-serif;
+  }
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .message {
+    font-size: 1.5rem;
+    animation: slideIn 3s ease-in-out;
+  }
+ 
+  @font-face{
+    font-family: 'PT';
+    src: url('../font/PTSerif-Regular.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* Style pour les confettis */
+  .confetti {
+    position: absolute;
+    top: -10px; /* Commence au-dessus de l'écran */
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    border-radius: 50%;
+    animation: fall linear forwards;
+    z-index: 1000;
+  }
+  
+  /* Animation de chute */
+  @keyframes fall {
+    to {
+      transform: translateY(100vh) rotate(360deg);
+    }
+  }
+  
+/* by Abdoul Rachid BISSARE / +229 01 63 61 49 80 */ 
